@@ -1,0 +1,20 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+    - Use Terrascan
+### Example vulnerability
+    - Overly Permissive IAM Roles/Policies
+    - Unencrypted S3 Buckets
+
+##Scan AMI’s or containers for OS vulnerabilities
+    - Use Prisma Cloud
+
+### Example vulnerability
+    - CVE (Common Vulnerabilities and Exposures)
+    - Misconfigured System Settings
+
+##Scan an AWS environment for cloud configuration vulnerabilities
+    - Use AWS Security Hub
+
+### Example vulnerability
+    - S3 Buckets with Public Read/Write Access

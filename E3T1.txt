@@ -1,0 +1,8 @@
+# Describe GuardDuty findings that were detected related to the brute force attack
+    - AWS GuardDuty had 2 findings: Brute force attack to exploit SSH ports facing the internet
+
+# Research the AWS Guard Duty documentation page and explain how GuardDuty may have detected this attack - i.e. what was its source of information.
+    - It uses a variety of data sources to detect potential security threats, and it analyzes and processes this data to identify suspicious behavior and provide actionable findings:
+        + VPC Flow Logs
+        + AWS CloudTrail
+        + DNS Logs

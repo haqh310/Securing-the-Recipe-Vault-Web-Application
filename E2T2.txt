@@ -1,0 +1,9 @@
+Research and analyze which of the vulnerabilities appear to be related to the code that was deployed for the environment in this project.
+    - Server-side encryption and Logging is not enabled for S3 buckets
+    - Application running on port 5000 and allow traffic from public internet
+    - EC2 instances should be managed by AWS Systems Manager
+
+Bonus - provide recommendations on how to remediate the vulnerabilities.
+    - Enable encryption and logging for S3 buckets.
+    - Use AWS System Manager to manage or access your EC2 instance.
+    - Limit traffic on the Loadbalancer.
